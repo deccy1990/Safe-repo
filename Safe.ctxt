@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Safe
+comment0.text=\r\n\ (a)\ A\ public\ class\ called\ safe\ to\ simulate\ the\ behaviour\ of\ a\ real\ safe\r\n\ @author\ (Declan\ James\ Cronin)\r\n\ @version\ (version\ 0.1\ 12/12/2023)\r\n
+comment1.params=aMaxItems
+comment1.target=Safe(int)
+comment1.text=\r\n\ (c)Constructs\ a\ new\ Safe\ with\ the\ specified\ maximum\ number\ of\ items.\r\n\ @param\ aMaxItems\ The\ maximum\ number\ of\ items\ that\ the\ safe\ can\ hold.\r\n
+comment2.params=item
+comment2.target=void\ addToContents(java.lang.String)
+comment2.text=\r\n\ (d)Adds\ an\ item\ to\ the\ safe\ contents\ if\ there\ is\ space\ available.\r\n\ @param\ item\ The\ item\ to\ be\ added\ to\ the\ safe\ contents.\r\n
+comment3.params=item
+comment3.target=void\ removeFromContents(java.lang.String)
+comment3.text=\r\n\ (e)Removes\ an\ item\ from\ the\ safe\ contents\ if\ it\ is\ present.\r\n\ @param\ item\ The\ item\ to\ be\ removed\ from\ the\ safe\ contents.\r\n
+comment4.params=
+comment4.target=void\ display()
+comment4.text=\r\n\ (f)Displays\ all\ items\ currently\ stored\ in\ the\ safe\ contents.\r\n
+comment5.params=
+comment5.target=void\ empty()
+comment5.text=\r\n\ (g)Removes\ all\ items\ from\ the\ safe,\ one\ at\ a\ time,\ and\ prints\ a\ message\ for\ each\ removal.\r\n
+comment6.params=code
+comment6.target=boolean\ lock(java.lang.String)
+comment6.text=\r\n\ (i)Attempts\ to\ lock\ the\ safe\ using\ the\ provided\ code.\r\n\ @param\ code\ The\ code\ to\ attempt\ to\ lock\ the\ safe.\r\n\ @return\ true\ if\ the\ safe\ is\ now\ locked,\ false\ otherwise.\r\n
+comment7.params=code
+comment7.target=boolean\ open(java.lang.String)
+comment7.text=\r\n\ (h)Attempts\ to\ open\ the\ safe\ using\ the\ provided\ code.\r\n\ @param\ code\ The\ code\ to\ attempt\ to\ open\ the\ safe.\r\n\ @return\ true\ if\ the\ safe\ is\ now\ open,\ false\ otherwise.\r\n
+numComments=8
